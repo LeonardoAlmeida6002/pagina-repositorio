@@ -1,0 +1,52 @@
+:root{
+    --cor-principal: white;
+}
+
+
+
+
+body {
+    background: rgb(44, 42, 42)
+    
+}
+
+
+.imagem-perfil img {
+    
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid var(--cor-principal);
+
+}
+
+.container {
+text-align: center;
+
+}
+
+.profile-info {
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+ul li {
+    padding: 5px 0;
+}
+
+/* icones */
+
+ion-icon {
+color: white
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
